@@ -1,11 +1,10 @@
-name: deploy
+name: Deploy
 on:
-  pull_request:
-    types: closed
+  push:
     branches:
       - main
 jobs:
-  build-and-deploy:
+  Deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
