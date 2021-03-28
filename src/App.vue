@@ -2,7 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <img :src="image.url">
-    <HelloWorld msg="Elly is awesome"/>
+    <HelloWorld msg="Elly is awesome,Alice is awesome too"/>
   </div>
 </template>
 
