@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Success"/>
     <img :src="image.url">
+    <HelloWorld msg="Elly is awesome"/>
   </div>
 </template>
 
@@ -34,7 +34,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: yellowgreen;
   margin-top: 60px;
+  font-size: 10px;
 }
 </style>
