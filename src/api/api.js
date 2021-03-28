@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const loadCatImage = async () => {
   try {
-    axios.defaults.headers.common['x-api-key'] = process.env.CATAPIKEY
+    axios.defaults.headers.common['x-api-key'] = process.env.CATS_API_KEY
 
     // Ask for 1 Image, at full resolution
     const response = await axios.get(
