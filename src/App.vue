@@ -2,17 +2,29 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Success"/>
+    <img :src="image.url">
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import { loadCatImage } from './api/api'
 
 export default {
   name: 'App',
   components: {
     HelloWorld
-  }
+  },
+  data() {
+    return {
+      image: { url: "" },
+    }
+  },
+  async created() {
+    this.image = await loadCatImage();
+  },
+  methods:{
+  },
 }
 </script>
 
