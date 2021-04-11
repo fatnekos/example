@@ -2,7 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <img :src="image.url">
-    <HelloWorld msg="聽說你們在開車咪~蛤"/>
+    <HelloWorld msg="git好難，你們看到這句表示我成功第一次push"/>
 
     
   </div>
