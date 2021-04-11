@@ -2,7 +2,9 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <img :src="image.url">
-    <HelloWorld msg="Elly is awesome,Alice is awesome too"/>
+    <HelloWorld msg="聽說你們在開車咪~蛤"/>
+
+    
   </div>
 </template>
 
@@ -38,4 +40,5 @@ export default {
   margin-top: 60px;
   font-size: 10px;
 }
+
 </style>
